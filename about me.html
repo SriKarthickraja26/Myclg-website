@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0"> 
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+                <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    
+    <section class="sub-header">
+        <nav>
+            <a href="index"><img src="images/logo.png.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="about%20me.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About us</h1>
+    </section>
+    <div class="blog-right">
+        
+        <h3>About Srec Alumini Association</h3>
+        <div>
+        <span>Chapters</span>
+        <span>5</span>
+        </div>
+        <div>
+        <span>Total Alumini</span>
+        <span>10925</span>
+        </div>
+        <div>
+        <span>App Downloads</span>
+        <span>978</span>
+        </div>
+        <div>
+        <span>Total Locations</span>
+        <span>357</span>
+        </div>
+        
+    </div>
+    
+    <!---------------about us--------------->
+    <section class="about-us">
+    
+            <div class="row">
+                <div class="about-col">
+                <h1>Best Engineering College in Coimbatore</h1>
+                <p>SREC has hence contributed to the industry by successfully delivering fresh recruits who have contributed continuously to the growth of the industry by being a part of the top-notch organizations. For all these reasons SREC has been a preferred institute for recruiting young minds.</p>
+                    <a href=""class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/library.jpg">
+                </div>
+            </div>
+        
+    </section>
+    
+    
+    
+    <!-------------Footer------>
+    
+    
+    <section class="footer"> 
+    <h4>About us</h4>
+        <p><b>Vision</b><br>
+To develop into a leading world class Technological University consisting of Schools of Excellence in various disciplines <br> with a co-existent Centre for Engineering Solutions Development for world-wide clientele.<br><br>
+<b>Mission</b><br>
+To provide all necessary inputs to the students for them to grow into knowledge engineers and scientists attaining.<br>
+Excellence in domain knowledge- practice and theory.<br>
+Excellence in co-curricular and Extra curricular talents.<br>
+Excellence in character and personality.<br></p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with  <i class="fa fa-heart-o"></i> by Sri Karthickraja</p>
+
+    
+    </section>
+    
+    
+    
+    
+    
+    <!------JavaSript for Toggle Menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    </script>
+</body>
+</html>
+    
